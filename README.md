@@ -1,5 +1,5 @@
 # meteor-ghost-demo
-A demo of using the mrt:ghost package in a Meteor app
+A demo of using the [mrt:ghost](https://github.com/danielqiu/meteor-ghost) package in a Meteor app
 
 ##Usage
 ```
