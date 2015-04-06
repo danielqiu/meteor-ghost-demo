@@ -8,3 +8,8 @@ meteor-platform
 autopublish
 insecure
 mrt:ghost
+meteorhacks:npm
+
+
+npm-container
+mrt:exports
