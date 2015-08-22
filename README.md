@@ -8,6 +8,7 @@ or
 git clone https://github.com/danielqiu/meteor-ghost-demo.git
 
 cd meteor-ghost-demo/
+git submodule update --init
 meteor
 ```
 Once you have the Meteor server up and running, you should be able to navigate to http://localhost:3000/ from a web browser to see the homepage.
