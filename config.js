@@ -19,7 +19,7 @@ config = {
         database: {
             client: 'sqlite3',
             connection: {
-                filename: path.join(__dirname, '/content/data/ghost.db')
+                filename: path.join(__dirname, '/public/content/data/ghost.db')
             },
             debug: false
         },
@@ -56,7 +56,7 @@ config = {
         database: {
             client: 'sqlite3',
             connection: {
-                filename: path.join(__dirname, '/content/data/ghost-dev.db')
+                filename: path.join(__dirname, '/public/content/data/ghost-dev.db')
             },
             debug: false
         },
@@ -67,7 +67,7 @@ config = {
             port: '2368'
         },
         paths: {
-            contentPath: path.join(__dirname, '/content/')
+            contentPath: path.join(__dirname, '/public/content/')
         }
     },
 
@@ -81,7 +81,7 @@ config = {
         database: {
             client: 'sqlite3',
             connection: {
-                filename: path.join(__dirname, '/content/data/ghost-test.db')
+                filename: path.join(__dirname, '/public/content/data/ghost-test.db')
             }
         },
         server: {

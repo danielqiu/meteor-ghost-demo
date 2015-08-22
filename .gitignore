@@ -1,0 +1,7 @@
+*.sublime-*
+/public/content/tmp/*
+/public/content/data/*
+/public/content/apps/**/*
+/public/content/themes/**/*
+/public/content/images/**/*
+!/public/content/themes/casper/**
